@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }} - {{ .Site.Title }}</title>
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="icon" type="image/x-icon" href="{{ "images/logo/favicon.ico" | relURL }}">
+    {{ $style := resources.Get "css/style.css" }}
+    {{ if $style }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ end }}
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
             <div class="nav-container">
-                <a href="{{ .Site.BaseURL }}" class="nav-logo">Atmos Lab</a>
+                <a href="{{ .Site.BaseURL }}" class="nav-logo">
+                    <img src="{{ "images/logo/atmos-lab-logo.png" | relURL }}" alt="Atmos Lab Logo" class="nav-logo-image">
+                    Atmos Lab
+                </a>
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a href="{{ .Site.BaseURL }}" class="nav-link">Home</a>
@@ -67,6 +74,9 @@
         </div>
     </footer>
 
-    <script src="{{ "js/script.js" | relURL }}"></script>
+    {{ $script := resources.Get "js/script.js" }}
+    {{ if $script }}
+    <script src="{{ $script.RelPermalink }}"></script>
+    {{ end }}
 </body>
 </html>
