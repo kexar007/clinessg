@@ -1,7 +1,6 @@
 baseURL = "https://kexar007.github.io/clinessg/"
 languageCode = "en-us"
 title = "Atmos Lab"
-theme = ""
 
 # Site configuration
 copyright = "Atmos Lab"

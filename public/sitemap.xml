@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.18.59:1313/about/</loc>
+    <loc>https://kexar007.github.io/clinessg/about/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.18.59:1313/</loc>
+    <loc>https://kexar007.github.io/clinessg/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.18.59:1313/media/</loc>
+    <loc>https://kexar007.github.io/clinessg/media/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.18.59:1313/people/</loc>
+    <loc>https://kexar007.github.io/clinessg/people/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.18.59:1313/categories/</loc>
+    <loc>https://kexar007.github.io/clinessg/categories/</loc>
   </url><url>
-    <loc>http://192.168.18.59:1313/tags/</loc>
+    <loc>https://kexar007.github.io/clinessg/tags/</loc>
   </url>
 </urlset>
